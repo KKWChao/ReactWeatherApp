@@ -24,3 +24,4 @@ yarn-error.log*
 
 # api key
 api.js
+api_replace.js
