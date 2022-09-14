@@ -1,6 +1,42 @@
+:root {
+  --primary: #3a3e3b;
+  --secondary: #291528;
+  --text: #f0eff4;
+  --dark: #000000;
+}
+
 /* Wrapper */
 .weather {
   width: 300px;
   border-radius: 6px;
   box-shadow: 10px -2px 20px 2px rgb(0 0 0 / 30%);
+  margin: 20px auto 0 auto;
+  padding: 0 20px 20px 20px;
+  background-color: var(--secondary);
+  color: var(--text);
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.city {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1;
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+.weather-description {
+  font-weight: 400px;
+  font-size: 14px;
+  line-height: 1;
+  margin: 0;
+}
+
+.weather-icon {
+  width: 100px;
 }
