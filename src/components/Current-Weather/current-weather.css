@@ -1,10 +1,4 @@
-:root {
-  --primary: #3a3e3b;
-  --secondary: #291528;
-  --text: #f0eff4;
-  --dark: #000000;
-}
-
+@import '../../index.css';
 /* Wrapper */
 .weather {
   width: 300px;

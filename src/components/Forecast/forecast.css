@@ -1,13 +1,10 @@
-:root {
-  --primary: #3a3e3b;
-  --secondary: #291528;
-  --text: #f0eff4;
-  --dark: #000000;
-}
+@import '../../index.css';
 
 .title {
   font-size: 23px;
   font-weight: 700;
+  padding: 10px;
+  color: var(--light);
 }
 
 .daily-item {
@@ -51,7 +48,9 @@
   display: grid;
   flex: 1 1;
   grid-template-columns: auto auto;
-  padding: 5px 15px;
+  padding: 5px 20px;
+  background-color: var(--light);
+  border-radius: 15px;
 }
 
 .daily-details-grid-item {
