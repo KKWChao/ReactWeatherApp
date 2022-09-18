@@ -13,18 +13,20 @@ A basic react weather application for keeping track of the weather
 
 ---
 - [Purpose](#purpose)
-- [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [Contact](#contact)
 
-## Description
 
 ## Installation
 
-## Usage
+```
+git clone https://github.com/KKWChao/ReactWeatherApp.git
+
+npm i 
+```
 
 ## Contact
-
+- KKWChao: https://github.com/KKWChao
 
