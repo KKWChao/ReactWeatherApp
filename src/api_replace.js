@@ -1,7 +1,7 @@
 // require('dotenv').config()
 
 const GEO_API = process.env.REACT_APP_API_KEY
-const WEATHER_API = process.env.WEATHER_API_KEY
+const WEATHER_API = process.env.REACT_APP_WEATHER_API_KEY
 
 export const geoApiOptions = {
   method: "GET",
