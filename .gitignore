@@ -25,3 +25,6 @@ yarn-error.log*
 # api key
 api.js
 .env
+server
+client
+dummyClient
