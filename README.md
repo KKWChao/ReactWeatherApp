@@ -24,7 +24,10 @@ A basic react weather application for keeping track of the weather
 ```
 git clone https://github.com/KKWChao/ReactWeatherApp.git
 
-npm i 
+npm init -y
+
+npm install
+
 ```
 
 ## Contact
