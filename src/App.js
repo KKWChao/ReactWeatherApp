@@ -2,10 +2,12 @@ import "./App.css";
 import Search from "./components/Search/search";
 import CurrentWeather from "./components/Current-Weather/current-weather";
 import Forecast from "./components/Forecast/forecast";
+
 import { WEATHER_API_URL, WEATHER_API_KEY } from "./api_replace";
 import { useState } from "react";
 
 function App() {
+
   const [currentWeather, setCurrentWeather] = useState(null)
   const [forecast, setForecast] = useState(null)
 
@@ -30,9 +32,6 @@ function App() {
       })
       .catch((err) => console.log(err));
   };
-
-  console.log(currentWeather)
-  console.log(forecast)
 
   return (
     <div className="container">
